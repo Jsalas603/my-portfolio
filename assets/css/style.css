@@ -324,9 +324,14 @@ header nav ul li a:hover {
       padding-bottom: 0;
       justify-content: center;
     }
+
+    .hero {
+      position: relative;
+      justify-content: center;  
+    }
    
     header h1 {
-     width: auto;
+     width: 100%;
      text-align: center;
     }
    
@@ -349,9 +354,6 @@ header nav ul li a:hover {
       width: 80%;
     }
    
-    .trainer {
-      flex: 0 70%;
-    }
 
    }
    
@@ -360,28 +362,7 @@ header nav ul li a:hover {
      section {
        padding: 30px 15px;
      }
-   
-     .step h3 {
-       flex: 1 100%;
-       text-align: center;
-     }
-   
-     .step-info {
-       flex: 2 100%;
-       text-align: center;
-       justify-content: center;
-     }
-   
-     .step-img {
-       flex: 0 32%;
-       margin-right: 0;
-       margin-top: 15px;
-       margin-bottom: 15px; 
-     }
-     
-     .step-text {
-       flex: 100%;   
-     }
+
    }
    
    /* MEDIA QUEY FOR MOBILE PHONES AND SMALLER */
@@ -394,15 +375,7 @@ header nav ul li a:hover {
      .section-title {
        width: 95%;
      }
-   
-     .intro p {
-       width: 100%;
-     }
-   
-     .trainer {
-       flex: 0 100%;
-     }
-   
+
      .contact-info {
        text-align: center;
      }
