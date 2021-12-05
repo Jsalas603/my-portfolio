@@ -292,6 +292,30 @@ section {
     border: 2px solid black;
   }
 
+/* psueado-clases */
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.contact-form button:hover {
+    background-color: black;
+    color: white;
+}
+
+.gallery-main img:hover {
+    box-shadow: 30px -16px teal;
+}
+
+.form-input:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
+  }
+  
+  .contact-form input:focus, .contact-form textarea:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
+  }
+
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
@@ -302,7 +326,7 @@ section {
     }
    
     header h1 {
-     width: 100%;
+     width: auto;
      text-align: center;
     }
    
@@ -313,22 +337,14 @@ section {
     }
    
     header nav ul li a {
-      font-size: 20px;
+      font-size: 10px;
     }
    
     footer h2, footer div {
       text-align: center;
       width: 100%;
     }
-   
-    .hero-cta, .hero-form {
-      width: 100%;
-    }
-   
-    .hero-cta {
-      text-align: center;
-    }
-   
+
     .section-title {
       width: 80%;
     }
@@ -336,10 +352,7 @@ section {
     .trainer {
       flex: 0 70%;
     }
-   
-    .contact-info iframe{
-      flex: 1 100%;
-    }
+
    }
    
    /* MEDIA QUERY FOR TABLETS AND SMALLER */
