@@ -233,6 +233,64 @@ section {
     text-align: center;
 }
 
+.contact {
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+.contact h2 {
+    color: black;
+}
+
+.contact-form input, .input-subject-email {
+    justify-content: space-between;
+    border: 1px solid var();
+    display: inline;
+    padding: 7px 15px;
+    font-size: 28px;
+    color: black;
+    width: auto;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+
+.contact-form, .input-firstname-lastname {
+    justify-content: space-between;
+    outline: none;
+    border: 1px solid var(black);
+    display: inline;
+    padding: 7px 15px;
+    font-size: 28px;
+    color: black;
+    width: auto;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+
+  .contact-form textarea {
+    outline: none;
+    width: 100%;
+    border-bottom: 1px solid var();
+    display: block;
+    padding: 7px 15px;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+
+  .contact-form button {
+    display: block;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-size: 32px;
+    border: 2px solid black;
+  }
 
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
